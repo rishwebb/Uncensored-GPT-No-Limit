@@ -1,4 +1,6 @@
-![GPT Pro](assets/Readme%20Logo.png)
+<img src="assets/Readme%20Logo.png" alt="GPT Pro" height="60">
+
+![GPT Pro Banner](assets/banner.png)
 
 [![Download GPT Pro for Windows](https://img.shields.io/badge/Download-GPT%20Pro%20v1.0.0%20(Windows)-red?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMTAgMTEwIj48cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNNzQgMTQuNWMtMTEuOCAxLjktMjEuOCAzLjQtMjIuMiAzLjQtLjUuMS0uOCA4LS44IDE3LjZWNTNoNDdWMzJjMC0xNi4yLS4zLTIxLTEuMi0yMC45LS43LjEtMTEgMS42LTIyLjggMy40bS00OC4yIDYuOC0xNC44IDJWNTNoMzZWMTlsLTMuMi4xYy0xLjguMS05LjkgMS4xLTE4IDIuMk0xMSA3MS44djE0LjhsMTYuMyAyLjJjOC45IDEuMiAxNyAyLjIgMTggMi4yIDEuNSAwIDEuNy0xLjUgMS43LTE3VjU3SDExem00MCAyLjdjMCA5LjYuMSAxNy41LjMgMTcuNS4xIDAgOS44IDEuNCAyMS42IDMgMTEuNyAxLjcgMjIuMiAzIDIzLjIgMyAxLjggMCAxLjktMS4xIDEuOS0yMC41VjU3SDUxeiIvPjwvc3ZnPg==)](https://github.com/rishwebb/Uncensored-GPT-No-Limit/releases/download/v1.0.8/GPT.Pro.Setup.1.0.0.exe)<br>
 [![Download GPT Pro for Android](https://img.shields.io/badge/Download-GPT%20Pro%20v1.0.0%20(Android)-green?style=for-the-badge&logo=android&logoColor=3DDC84)](https://github.com/rishwebb/Uncensored-GPT-No-Limit/releases/download/v1.0.8/GPT-Pro.apk)
