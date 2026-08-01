@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="assets/Readme%20Logo.png" alt="GPT Pro" width="420" style="margin-top: 16px; margin-bottom: 24px;">
+<img src="assets/Readme%20Logo.png" alt="GPT Pro" width="450" style="margin-top: 10px; margin-bottom: 12px;">
+
+### ⚡ Unlimited AI Access • Zero Rate Limits • Windows & Android ⚡
 
 ![GPT Pro Banner](assets/banner.png)
 
