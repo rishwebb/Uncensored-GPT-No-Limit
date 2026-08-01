@@ -2,7 +2,7 @@
 
 <img src="assets/Readme%20Logo.png" alt="GPT Pro" width="450" style="margin-top: 10px; margin-bottom: 12px;">
 
-<p align="center" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 2px; color: #E2E8F0; text-transform: uppercase; margin-top: 8px; margin-bottom: 16px;">
+<p align="center" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 17px; letter-spacing: 1.5px; color: #E2E8F0; text-transform: uppercase; margin-top: 8px; margin-bottom: 16px;">
   ⚡ UNLIMITED AI ACCESS &bull; ZERO RATE LIMITS &bull; WINDOWS &amp; ANDROID ⚡
 </p>
 
