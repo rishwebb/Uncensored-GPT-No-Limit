@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPT Pro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Minimal Classy Header Bar -->
+  <header class="app-header">
+    <!-- iOS Window Control Traffic Lights -->
+    <div class="ios-controls">
+      <!-- Red: Close -->
+      <button class="ios-btn ios-close" id="btn-close" title="Close">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Yellow: Maximize -->
+      <button class="ios-btn ios-maximize" id="btn-maximize" title="Maximize">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <polyline points="15 3 21 3 21 9"></polyline>
+          <polyline points="9 21 3 21 3 15"></polyline>
+          <line x1="21" y1="3" x2="14" y2="10"></line>
+          <line x1="3" y1="21" x2="10" y2="14"></line>
+        </svg>
+      </button>
+
+      <!-- Green: Minimize -->
+      <button class="ios-btn ios-minimize" id="btn-minimize" title="Minimize">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Center App Name with Logo -->
+    <div class="header-title">
+      <img src="assets/logo.png" width="16" height="16" alt="Logo" style="border-radius: 3px; object-fit: contain;">
+      <span>GPT Pro</span>
+    </div>
+
+    <!-- Right Controls: Red Clear Button -->
+    <div class="header-actions">
+      <button class="btn-clear" id="btn-clear-now" title="Clear Site Data & Reload">
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="3 6 5 6 21 6"></polyline>
+          <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+        </svg>
+        <span>Clear Site Data</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Webview Viewport -->
+  <main class="webview-container">
+    <div class="loading-bar" id="loading-bar"></div>
+    <webview id="web-view" src="https://uncensored.chat/" webpreferences="contextIsolation=no"></webview>
+  </main>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
