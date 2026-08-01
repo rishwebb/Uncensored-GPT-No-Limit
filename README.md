@@ -1,4 +1,6 @@
-<img src="assets/Readme%20Logo.png" alt="GPT Pro" height="150">
+<p align="center">
+  <img src="assets/Readme%20Logo.png" alt="GPT Pro" height="150">
+</p>
 
 ![GPT Pro Banner](assets/banner.png)
 
