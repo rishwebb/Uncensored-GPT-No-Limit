@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/Readme%20Logo.png" alt="GPT Pro" width="380">
+<img src="assets/Readme%20Logo.png" alt="GPT Pro" width="420" style="margin-top: 16px; margin-bottom: 24px;">
 
 ![GPT Pro Banner](assets/banner.png)
 
