@@ -2,7 +2,7 @@
 
 ![GPT Pro Banner](assets/banner.png)
 
-[![Download GPT Pro for Windows](https://img.shields.io/badge/Download-GPT%20Pro%20v1.0.0%20(Windows)-red?style=for-the-badge&logo=windows)](https://github.com/rishwebb/Uncensored-GPT-No-Limit/releases/download/v1.0.8/GPT.Pro.Setup.1.0.0.exe)
+[![Download GPT Pro for Windows](https://img.shields.io/badge/Download-GPT%20Pro%20v1.0.0%20(Windows)-red?style=for-the-badge&logo=windows)](https://github.com/rishwebb/Uncensored-GPT-No-Limit/releases/download/v1.0.8/GPT.Pro.Setup.1.0.0.exe)<br>
 [![Download GPT Pro for Android](https://img.shields.io/badge/Download-GPT%20Pro%20v1.0.0%20(Android)-green?style=for-the-badge&logo=android)](https://github.com/rishwebb/Uncensored-GPT-No-Limit/releases/download/v1.0.8/GPT-Pro.apk)
 
 A sleek, minimalist application designed for seamless interactions with [uncensored.chat](https://uncensored.chat/). Built with a classy monochrome black theme and custom iOS-style window controls on desktop and glass UI on mobile.
