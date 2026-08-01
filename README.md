@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
 
 <img src="assets/Readme%20Logo.png" alt="GPT Pro" width="450" style="margin-top: 10px; margin-bottom: 12px;">
 
