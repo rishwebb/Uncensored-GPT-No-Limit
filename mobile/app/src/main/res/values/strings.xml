@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">GPT Pro</string>
-    <string name="clear_site_data">Clear Site Data</string>
+    <string name="reset_site_data">Reset</string>
 </resources>

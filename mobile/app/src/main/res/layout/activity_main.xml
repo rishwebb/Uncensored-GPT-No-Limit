@@ -6,14 +6,14 @@
     android:orientation="vertical"
     android:background="@color/bg_black">
 
-    <!-- Header Bar -->
+    <!-- Classy Glass iOS Header Bar -->
     <RelativeLayout
         android:id="@+id/header_bar"
         android:layout_width="match_parent"
-        android:layout_height="54dp"
+        android:layout_height="52dp"
         android:background="@color/bg_header"
-        android:paddingStart="14dp"
-        android:paddingEnd="14dp">
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
 
         <!-- App Logo & Title Container -->
         <LinearLayout
@@ -24,38 +24,46 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="22dp"
-                android:layout_height="22dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
                 android:src="@drawable/logo"
                 android:contentDescription="App Logo" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="10dp"
                 android:text="@string/app_name"
                 android:textColor="@color/text_white"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.02" />
         </LinearLayout>
 
-        <!-- Red Clear Site Data Button -->
+        <!-- Glass iOS Reset Button -->
         <Button
             android:id="@+id/btn_clear_data"
             android:layout_width="wrap_content"
-            android:layout_height="36dp"
+            android:layout_height="34dp"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:background="@drawable/bg_red_button"
-            android:text="@string/clear_site_data"
+            android:background="@drawable/bg_glass_button"
+            android:text="@string/reset_site_data"
             android:textColor="@color/text_white"
-            android:textSize="12sp"
+            android:textSize="13sp"
             android:textStyle="bold"
-            android:paddingStart="12dp"
-            android:paddingEnd="12dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textAllCaps="false"
             app:backgroundTint="@null" />
 
     </RelativeLayout>
+
+    <!-- Thin Glass Header Divider Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1F1F24" />
 
     <!-- WebView Container -->
     <FrameLayout
@@ -68,15 +76,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
+        <!-- Centered iOS-Style Loading Spinner -->
         <ProgressBar
-            android:id="@+id/progress_bar"
-            style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="match_parent"
-            android:layout_height="3dp"
-            android:layout_gravity="top"
-            android:indeterminate="false"
-            android:max="100"
-            android:progressDrawable="@drawable/custom_progress"
+            android:id="@+id/loading_spinner"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:indeterminateTint="#FFFFFF"
             android:visibility="gone" />
 
     </FrameLayout>
