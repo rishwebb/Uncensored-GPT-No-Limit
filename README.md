@@ -54,6 +54,17 @@ The output binary will be created in `dist/GPT Pro 1.0.0.exe`.
 
 ---
 
+## 📱 Android Mobile App
+
+The native Android app code is located in the [`mobile/`](mobile/) directory:
+- Built with **Kotlin** and native Android `WebView`.
+- Includes custom top bar with **Clear Site Data** button (`WebStorage.getInstance().deleteAllData()` + `CookieManager.getInstance().removeAllCookies()`).
+- Uses `assets/logo.png` as app launcher icon.
+- Open the [`mobile/`](mobile/) folder in Android Studio to build or generate APK.
+
+
+---
+
 ## 📄 License
 
 MIT License
