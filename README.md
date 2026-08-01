@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/Readme%20Logo.png" alt="GPT Pro" width="700">
+  <img src="assets/Readme%20Logo.png" alt="GPT Pro" width="600">
 </p>
 
 ![GPT Pro Banner](assets/banner.png)
